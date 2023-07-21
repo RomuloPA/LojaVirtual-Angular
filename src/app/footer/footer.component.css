@@ -1,0 +1,49 @@
+.main {
+    background-color: rgb(238, 238, 238);
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    padding: 20px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(238, 238, 238);    
+    font-weight: bold;
+    padding: 20px;
+    color: rgb(106, 106, 106);
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    color: lime;
+    margin-bottom: 5px;
+}
+
+.about {
+    width: 400px;
+    text-align: justify;
+    line-height: 1.7;
+    color: rgb(106, 106, 106);
+}
+
+.main i {
+    color:royalblue;
+}
+
+.main li {
+    margin: 10px 0;
+    color: rgb(106, 106, 106);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+

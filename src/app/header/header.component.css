@@ -8,7 +8,8 @@
 }
 
 .title {    
-    font-size: 80px;    
+    font-size: 80px;
+    letter-spacing: 1.5px;    
 }
 
 .title-one {
@@ -22,18 +23,23 @@
 .menu ul {
     display: flex;
     justify-content: flex-end;
+    list-style: none;
 }
 
 .menu a {
     padding: 10px 10px;
+    color: rgb(238, 238, 238);
     font-size: 22px;
-    text-decoration: none;
     transition: all .3s ease-in-out;
 }
 
 .menu a:hover {
     background-color: lime;
-    color: #fff;
+    color:rgb(106, 106, 106);
+}
+
+.menu i:hover {
+    color:rgb(106, 106, 106);
 }
 
 .container-menu {
@@ -45,6 +51,7 @@
 
 .badge {
     background-color: royalblue;
+    color:  rgb(238, 238, 238);
     padding: 5px 10px;    
     border-radius: 4px;
 }
