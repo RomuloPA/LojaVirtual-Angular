@@ -1,0 +1,75 @@
+.main {    
+    padding: 10px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.title {    
+    font-size: 80px;    
+}
+
+.title-one {
+    color: lime;
+}
+
+.title-two {
+    color: royalblue;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu a {
+    padding: 10px 10px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.menu a:hover {
+    background-color: lime;
+    color: #fff;
+}
+
+.container-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    flex: 1;
+}
+
+.badge {
+    background-color: royalblue;
+    padding: 5px 10px;    
+    border-radius: 4px;
+}
+
+.search {
+    height: 44px;
+    display: flex;
+}
+
+.search input{
+    box-sizing: border-box;
+    height: 56px;
+    padding: 28px;
+    flex:1;
+    background-color: rgb(238, 238, 238);
+    color: rgb(106, 106, 106);
+    border: none;
+    transition: all -3s ease-in-out;
+    font-size: 22px;
+}
+
+.search button{
+    width: 56px;
+    height: 56px;
+    background-color: royalblue;
+    border:none;
+    font-size: 22px;
+}
