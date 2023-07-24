@@ -13,9 +13,9 @@
     padding: 10px;
     border-radius: 4px;
     flex: 0 1 270px;
-    height: 450px;
+    height: 600px;
     background-color:rgb(238, 238, 238);
-    box-shadow: rgba(238, 238, 238, 0.8) 0px 2px 8px 0px;       
+    box-shadow: rgba(58, 84, 230, 0.8) 2px 2px 8px 0px;     
 }
 
 .card:hover {
