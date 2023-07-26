@@ -22,4 +22,8 @@ export class DetalhesProdutoComponent implements OnInit {
     const produtoID = Number(routeParams.get("id"));
     this.produto = this.produtosService.getOne(produtoID);
   }
+
+  adicionarAoCarrinho() {
+    alert('Produto adicionado ao carrinho');
+  }
 }

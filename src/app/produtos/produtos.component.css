@@ -19,6 +19,7 @@
 }
 
 .card:hover {
+    background-color:rgb(188, 188, 188);
     outline: 1px solid lime;
     transform: scale(1.1, 1.1);
     cursor: pointer;

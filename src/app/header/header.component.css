@@ -9,7 +9,8 @@
 
 .title {    
     font-size: 80px;
-    letter-spacing: 1.5px;    
+    letter-spacing: 1.5px;
+    margin-left: 150px;    
 }
 
 .title-one {
@@ -64,6 +65,7 @@
 .search input{
     box-sizing: border-box;
     height: 56px;
+    width: 450px;
     padding: 28px;
     flex:1;
     background-color: rgb(238, 238, 238);

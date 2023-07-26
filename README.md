@@ -1,3 +1,31 @@
+# Página web de uma loja virtual
+
+🎉 Bem-vindo(a) ao meu projeto de uma página web de uma loja virtual fictícia onde o usuário visualiza os itens disponíveis, e clicando em cima do item desejado é redirecionado para a página onde pode visualizar qual a quantidade em estoque do produto, selecionar quantos deseja comprar, e clicar para adicionar ao carrinho.
+A página conta com o component header e footer fixos, independente da página que esetiver aberta eles sempre vão abrir. A funcionalidade de adicionar ao carrinho e prosseguir com o restante da compra não foi implementada, pois o objetivo do projeto era aprofundar um pouco mais os conhecimentos com o framework Angular.
+Tive a oportunidade de trabalhar com module, onde os produtos são incluídos na página através de uma lista, se a lista for alterada a página atualiza mostrando os novos itens, ou retirando os que forem excluídos.
+Utilizei o service para conseguir extrair o id do produto, para através do id a página mostrar as informações do produto corretamente.
+
+
+## Funcionalidades
+- [x] Header e Footer fixos nas páginas;
+- [x] Módulo para inclusão dos produtos;
+- [x] Service para extrair a informação do id;
+
+## Tecnologias
+- HTML
+- CSS
+- TypeScript
+- Angular
+
+[![Alt text](https://img.youtube.com/vi/Xz56KeupSPs/0.jpg)](https://www.youtube.com/watch?v=Xz56KeupSPs)
+
+
+
+
+
+# Abaixo segue o Readme criado automaticamente pelo Angular
+
+
 # PaginaLojaVirtual
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
